@@ -1,0 +1,33 @@
+.main_div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+}
+
+@media (max-width: 500px) {
+	.main_div {
+		width: 20rem;
+		height: 100%;
+		margin-left: 2rem;
+	}
+}
+
+.header_div {
+	padding: 1.6em 4em;
+	display: inline-block;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 0;
+	margin-bottom: 0.8rem;
+}
+
+p {
+	font-size: 1.1rem;
+	text-align: center;
+	font-weight: 300;
+}

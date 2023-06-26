@@ -1,0 +1,55 @@
+.expenselist_wrapper {
+	width: 100%;
+}
+
+@media (max-width: 500px) {
+	.expenselist_wrapper {
+		width: 23rem;
+		margin: 2rem 0;
+	}
+}
+
+.list_wrapper {
+	height: 20rem;
+	list-style: none;
+	overflow: auto;
+}
+
+.list_wrapper__point {
+	margin: 1em auto;
+	padding: 0.8em 3em;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	transition: all 0.3s ease-out;
+}
+
+.list_wrapper__point:hover {
+	background-color: #eeffb0;
+}
+
+.list_wrapper__point.income {
+	border-inline-start: 2px solid green;
+}
+
+.list_wrapper__point.expense {
+	border-inline-start: 2px solid red;
+	color: red;
+}
+
+.norecord_wrapper {
+	width: 90%;
+	height: 15rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+.btn {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
