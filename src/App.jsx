@@ -9,7 +9,7 @@ const App = () => {
 		<div className={appclasses.main_div}>
 			<div className={`${appclasses.header_div} animate__animated animate__fadeInDown`}>
 				<h1>SpendWise</h1>
-				<p>A Expense Tracker</p>
+				<p>An Expense Tracker</p>
 			</div>
 			<Expense />
 			<ExpenseList />
