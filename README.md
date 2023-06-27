@@ -4,7 +4,7 @@ An Expense Tracker using React apps
 <p align="center">
   <img src="public/SpendWise_Banner.png">
 </p>
-<h3 align ="center"><a href="https://nirajd10.github.io/Quizy/](https://spend-wise-nd10.netlify.app/">View Here 🔗</a></h3>
+<h3 align ="center"><a href="https://spend-wise-nd10.netlify.app/">View Here 🔗</a></h3>
 
 ## Description
 
